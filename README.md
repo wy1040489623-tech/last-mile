@@ -1,22 +1,19 @@
 # last-mile
 
-> AI 做完了，不等于你拿到了。
+**AI 做完了，不等于你拿到了。**
 
-一个 50 行的 Agent Skill：让 AI 在交付任何东西之前，先想一下你在哪、要干什么、以后还用不用，然后用最省事的方式递给你。
-
----
-
-## 它解决什么问题
-
-你跟 AI 说："帮我做个工具。"
-
-它做完了，回你一句：
+你让 AI 做个工具，它回你一个地址，让你自己去开：
 
 > 已完成，文件在 `E:\project\tools\copy-tool\main.py`，运行 `python main.py` 即可。
 
-你得：打开文件夹 → 找到文件 → 打开命令行 → 敲命令 → 发现还得装依赖 → 回来问它。
+你得打开文件夹、找到文件、开命令行、敲命令，发现缺依赖，再回来问它。
 
-**做完了，但你没用上。**
+你让 AI 生成一段视频，它直接弹出来，可你当时并不想看。
+你装好一个外部工具，AI 说"已安装"，没说从哪点开。
+
+问题都不在"做"，在"交"。
+
+last-mile 只管最后一手：东西做完之后，先看你现在是什么状态，再选最省事的方式递到你手边。可能是桌面一个图标，可能是对话里一个能点的链接，也可能是二维码——怎么顺手怎么来。
 
 ## 装上它之后
 
@@ -89,19 +86,20 @@ MIT
 
 # last-mile (English)
 
-> Done is not delivered.
+**Done is not delivered.**
 
-A 50-line agent skill: before handing anything to the user, the agent pauses and thinks about where they are, what they will do with it, and whether they will reuse it — then picks the lowest-friction way to hand it over.
-
-## The problem
-
-You ask an AI to build a small tool. It finishes and replies:
+You ask an AI to build a small tool. It replies with a file path and a command to run:
 
 > Done. The file is at `E:\project\tools\copy-tool\main.py`. Run `python main.py`.
 
-You then have to open the folder, find the file, open a terminal, run it, hit a missing dependency, and come back to ask again.
+You open the folder, find the file, open a terminal, run it, hit a missing dependency, and come back to ask again.
 
-**It's finished, but you can't use it.**
+You ask for a video. It pops up on screen, but you weren't ready to watch it.
+You install an external tool. The AI says "installed" — without telling you where to click.
+
+**The problem is never the making. It's the handoff.**
+
+last-mile only handles the handoff: once the work is done, it looks at where you are and what you need, then hands it over in the least annoying way — a desktop icon, a clickable link in the conversation, a QR page, whatever is easiest.
 
 ## With last-mile
 
